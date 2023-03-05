@@ -32,3 +32,32 @@ body {
     padding: 3px;
     border-radius: 3px;
 }
+
+#msg {
+    color: red;
+}
+
+#tasks {
+    display: grid;
+    grid-template-columns: #e2eede;
+    gap: 14px;
+}
+
+#tasks div{
+    border: 3px solid #abcea1;
+    background-color: #e2eede;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+
+#tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+#tasks div .options {
+cursor: pointer;
+}
