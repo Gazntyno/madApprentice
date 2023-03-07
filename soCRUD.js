@@ -3,6 +3,7 @@ let input = document.getElementById("input");
 let msg = document.getElementById("msg");
 let posts = document.getElementById("posts");
 
+// 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     console.log("button clicked");
@@ -22,6 +23,7 @@ let formValidation = () => {
     }
 };
 
+// accepts data from the user 
 let data = {};
 let acceptData = () => {
     data["text"] = input.value;
@@ -29,6 +31,7 @@ let acceptData = () => {
     createPost();
 };
 
+// this template literal allows the user to create a post
 let createPost = () => {
     posts.innerHTML += `<div>
     <p>${data.text}</p>
@@ -40,10 +43,12 @@ let createPost = () => {
     input.value = "";
 };
 
+// deleting a post
 let deletePost =  (e) => {
     e.parentElement.parentElement.remove();
 };
 
+// editing a post
 let editPost = (e) => {
 input.value = e.parentElement.previousElementSibling.innerHTML;
 e.parentElement.parentElement.remove();
