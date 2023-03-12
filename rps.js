@@ -15,6 +15,7 @@ possibleChoices.foreach(possibleChoice => possibleChoice.addEventListener('click
 
 function generateComputerChoice() 
 {
+    // Math.Random Generates a random number between 1 & 0.
     const randomNum = Math.floor(Math.random() * 3) + 1;
 
     if (randomNum === 1) 
