@@ -7,4 +7,4 @@ So far I've only been following toturials to buildthe following programs / apps:
 - Rock, Paper, Scissors game
 
 I will also be uploading random little programs to this repo for the documentaion of my programming journey.
-Coding snipets froms books will be here as well. 
+Coding snipets from books will be here as well. 
