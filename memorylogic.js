@@ -1,3 +1,5 @@
+
+// all the cards we'll be playing with
 const cardArray = [ 
     {
         name: 'flower',
@@ -52,6 +54,7 @@ const cardArray = [
 
 ];
 
+// randomizes the order of the cards
 cardArray.sort(() => 0.5 - Math.random());
 
 const grid = document.querySelector('#grid');
