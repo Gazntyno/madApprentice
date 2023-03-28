@@ -7,36 +7,36 @@ int main() {
    char op; 
    float num1, num2;
 
-   cout << "Enter Operator ( +, -, *, /):";
-   cin >> op;
+   cout << "Enter calculation: \n";
+   cin >> num1 >> op >> num2 ;
 
-   cout << "Enter two numbers:";
-   cin >> num1 >> num2;
+   //cout << "Enter two numbers:";
+   //cin >> num1 >> num2;
 
    switch(op)
    {
     case '+':
-    cout << num1 + num2;
+    cout << num1 + num2 << "\n";
     break;
 
     case '-':
-    cout << num1 - num2;
+    cout << num1 - num2 << "\n";
     break;
 
     case '*':
-    cout << num1 * num2;
+    cout << num1 * num2 << "\n";
     break;
 
     case '/':
     if(num2 == 0)
     {
-        cout << "Error: Divison by zero";
-    } else{cout << num1 / num2;
+        cout << "Error: Divison by zero \n";
+    } else{cout << num1 / num2 << "\n";
     }
     break;
 
     defualt: 
-    cout << "Error: Invalid operator";
+    cout << "Error: Invalid operator \n";
     break;
    }
 
