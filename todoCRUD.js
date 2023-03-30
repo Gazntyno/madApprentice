@@ -12,6 +12,8 @@ form.addEventListener("submit", (e) =>
     formValidation();
 });
 
+//validate form
+
 let formValidation = () => {
     if (textInput.value === "") {
         console.log("failure");
