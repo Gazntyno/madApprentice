@@ -5,6 +5,7 @@ So far I've only been following toturials to buildthe following programs / apps:
 - To-do app
 - Simple Social Media app 
 - Rock, Paper, Scissors game
+- Calculator program (c++)
 
 I will also be uploading random little programs to this repo for the documentaion of my programming journey.
 Coding snipets from books will be here as well. 
