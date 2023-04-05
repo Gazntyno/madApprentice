@@ -1,6 +1,7 @@
 // a calculator program
 
 #include <iostream>
+#include <random>
 using namespace std;
 
 int main() {
