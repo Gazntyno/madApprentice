@@ -8,7 +8,7 @@ int main() {
    char op; 
    float num1, num2;
 
-   cout << "Enter calculation: \n";
+   cout << "Enter calculation: ";
    cin >> num1 >> op >> num2 ;
 
    //cout << "Enter two numbers:";
