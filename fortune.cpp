@@ -1,4 +1,4 @@
-// A fortune teller 
+// A fortune teller program
 
 #include <iostream>
 #include <random>
