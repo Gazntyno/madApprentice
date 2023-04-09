@@ -13,7 +13,20 @@ int main()
     std::uniform_int_distribution<> dis(0,99);
 
     int rannum = dis(gen);
-    std::cout << "Random Number: " << rannum << std::endl;
+    std::cout << "Random Number: " << rannum << "\n";
+    
+    //Prints Fortune
+    if(rannum < 50)
+   {
+       std::cout << "The odds are in your favor";
+   }
+   else if(rannum > 50)
+   {
+       std::cout << "Not likely";
+   }
+   else{
+       std::cout << "Ask again later";
+   }
 
     return 0;
     
