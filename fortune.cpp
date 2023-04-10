@@ -10,13 +10,13 @@ int main()
     //Generates a random number 
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(0,99);
+    std::uniform_int_distribution<> dis(0,11);
 
     int rannum = dis(gen);
     std::cout << "Random Number: " << rannum << "\n";
     
     //Prints Fortune
-    switch(rannum)
+     switch(rannum)
     {
         case 1:
         std::cout << "The odds are in your favor\n";
@@ -38,10 +38,29 @@ int main()
         std::cout << "Not likely\n";
         break;
 
+         case 6:
+        std::cout << "Very Likely\n";
+        break;
+
+         case 7:
+        std::cout << "Maybe\n";
+        break;
+
+         case 8:
+        std::cout << "Yes\n";
+        break; 
+
+         case 9:
+        std::cout << "No\n";
+        break;
+
+         case 10:
+        std::cout << "Be more confident\n";
+        break;
+
         default: std::cout << "Future is undecided. Ask again later\n";
 
     }
-    
     return 0;
     
 }
