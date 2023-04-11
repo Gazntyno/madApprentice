@@ -13,7 +13,6 @@ int main()
     std::uniform_int_distribution<> dis(0,11);
 
     int rannum = dis(gen);
-    std::cout << "Random Number: " << rannum << "\n";
     
     //Prints Fortune
      switch(rannum)
