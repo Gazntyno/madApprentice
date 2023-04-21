@@ -10,6 +10,6 @@ So far I've only been following toturials and using ChatGPT to build the followi
 
 I will also be uploading random little programs to this repo for the documentaion of my programming journey.
 Coding snipets from books will be here as well. 
-throughout my journery I will also be learning the basics of source control. 
+Throughout my journery I will also be learning the basics of source control. 
 I have the intention of being able to contribute to 
 other repositories in the furture. 
