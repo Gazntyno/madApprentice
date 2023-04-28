@@ -13,4 +13,5 @@ Coding snipets from books will be here as well.
 Some projects using OpenGL will be uploaded into this repo too.
 Throughout my journery I will also be learning the basics of source control. 
 I have the intention of being able to contribute to 
-other repositories in the furture. I want to learn to collaborate effectively on software projects.
+other repositories in the furture. I want to learn to collaborate effectively on software projects. 
+Collaboration is important. 
