@@ -4,7 +4,7 @@ The goal is to become proficient in programming so that I can create interesting
 So far I've only been following toturials and using ChatGPT to build the following programs / apps:
 - To-do App (js)
 - Simple Social Media App (js)
-- Rock, Paper, Scissors game (js)
+- Rock, Paper, Scissors Game (js)
 - Calculator program (c++)
 - Fortune Teller program (c++) 
 
