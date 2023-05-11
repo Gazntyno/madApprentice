@@ -5,7 +5,7 @@ So far I've only been following toturials and using ChatGPT to build the followi
 - To-do App (js)
 - Simple Social Media App (js)
 - Rock, Paper, Scissors Game (js)
-- Calculator program (c++)
+- Calculator Program (c++)
 - Fortune Teller program (c++) 
 
 I will also be uploading random programs to this repo for the documentaion of my programming journey.
