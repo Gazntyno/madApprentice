@@ -1,0 +1,14 @@
+nav ul li{
+    display: flex;
+    justify-content: left;
+    vertical-align: baseline;
+}
+
+section article p{
+    display: flex;
+    justify-content: right;
+}
+
+td { 
+    padding: 50px;
+}
