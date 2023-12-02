@@ -1,12 +1,12 @@
-nav ul li{
+nav ul li {
     display: flex;
     justify-content: left;
     vertical-align: baseline;
 }
 
-section article p{
+section h3 {
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 
 td { 
