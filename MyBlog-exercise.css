@@ -1,0 +1,21 @@
+section {
+    display: block;
+    width: 1000px;
+    height: 150px;
+    padding: 0 50px;
+    align-content: normal;
+}
+
+h3 {
+   
+    padding: 0 25px;
+}
+
+h1 {
+    padding: 0 25px;
+    justify-content: center;
+}
+
+p {
+    font-size: 24;
+}
