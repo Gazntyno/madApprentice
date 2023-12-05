@@ -1,7 +1,7 @@
 section {
     display: block;
-    width: 1000px;
-    height: 150px;
+    width: 500px;
+    height: 350px;
     padding: 0 50px;
     align-content: normal;
 }
@@ -9,20 +9,24 @@ section {
 h3 {
    
     padding: 0 25px;
+    color: antiquewhite;
 }
 
 h1 {
     padding: 0 25px;
     justify-content: center;
+    color:antiquewhite;
+    
 }
 
 p {
     font-size: 24;
+    color: antiquewhite;
 }
 
 #computerImage {
     position: absolute;
-    top: 100px;
+    top: 250px;
     left: 1250px;
     width: 200px;
     height: 200px; 
@@ -30,7 +34,7 @@ p {
 
 #atomImage {
     position: absolute;
-    top: 350px;
+    top: 700px;
     left: 1250px;
     width: 200px;
     height: 200px;
@@ -39,14 +43,14 @@ p {
 hr {
     border: 0;
     height: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .blog {
-    width: 800px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
@@ -54,4 +58,8 @@ hr {
 .blog h1{
     font-size: 2em;
 }
+body {
+    background-color: rgb(12, 12, 12);
+}
+
 
