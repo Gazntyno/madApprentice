@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Circle Animation</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    const WIDTH = window.innerWidth;
+    const HEIGHT = window.innerHeight;
+    const RADIUS_MIN = 50;
+    const RADIUS_MAX = 150;
+    let radius = RADIUS_MIN;
+    let direction = 1;
+
+    canvas.width = WIDTH;
+    canvas.height = HEIGHT;
+
+    function drawCircle() {
+      ctx.clearRect(0, 0, WIDTH, HEIGHT);
+      ctx.beginPath();
+      ctx.arc(WIDTH / 2, HEIGHT / 2, radius, 0, 2 * Math.PI, false);
+      ctx.fillStyle = 'black';
+      ctx.fill();
+    }
+
+    function animate() {
+      if (radius >= RADIUS_MAX && direction === 1) {
+        direction = -1;
+      } else if (radius <= RADIUS_MIN && direction === -1) {
+        direction = 1;
+      }
+      radius += 2 * direction;
+
+      drawCircle();
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  </script>
+</body>
+</html>
