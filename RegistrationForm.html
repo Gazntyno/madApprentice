@@ -17,73 +17,80 @@
       <hr />
       <br /><br />
       <form>
-        <label>Full Name: </label>
+        <label for="name">Full Name: </label>
         <input type="text" id="name" placeholder="Enter your full legal name" />
         <br /><br />
-        <label>Date of Birth: </label>
+        <label for="birthday">Date of Birth: </label>
         <input type="date" id="birthday" />
         <br /><br />
         <label>Gender: </label>
         <br />
-        <label>Male</label>
+        <label for="gender">Male</label>
         <input type="radio" id="gender" />
-        <label>Female</label>
+        <label for="gender">Female</label>
         <input type="radio" id="gender" />
-        <label>Other</label>
+        <label for="gender">Other</label>
         <input type="radio" id="gender" />
         <br /><br />
-        <label>Email: </label>
+        <label for="email">Email: </label>
         <input type="email" id="email" placeholder="bigshot@email.com" />
         <br /><br />
-        <label>Phone Number: </label>
-        <input type="text" id="phonenumber" placeholder="(XXX)-XXX-XXXX" />
-        <br /><br />
-        <label>Gamertag: </label>
+        <label for="phonenumber">Phone Number: </label>
+        <input type="text" id="phonenumber" maxlength="3" />
+        <input type="number" id="phonenumber" maxlength="3" />
+        <input type="number" id="phonenumber" maxlength="4" /> <br /><br />
+        <label for="gamertag">Gamertag: </label>
         <input
           type="text"
           id="gamertag"
           placeholder="What the world will call you"
         />
         <br /><br />
-        <label>Do you play wil mouse and keyboard or controller?</label>
-        <select>
+        <label for="gameInput"
+          >Do you play wil mouse and keyboard or controller?</label
+        >
+        <select id="gameInput">
           <option>Mouse and Keyboard</option>
           <option>Controller</option>
         </select>
         <br /><br />
-        <label>What is your main gaming platform?</label>
-        <select>
+        <label for="platform">What is your main gaming platform?</label>
+        <select id="platform">
           <option>PC</option>
           <option>Playstation</option>
           <option>Xbox</option>
           <option>Mobile</option>
         </select>
         <br /><br />
-        <label>What is your main competitive video game?</label>
-        <select>
+        <label for="mainGame">What is your main competitive video game?</label>
+        <select id="mainGame">
           <option>Apex Legends</option>
           <option>Call of Duty</option>
           <option>Valorant</option>
-          <option>Fortnite</option>
-          <option>Leauge of Legends</option>
-          <option>Halo Infinite</option>
-          <option>Rocket League</option>
         </select>
         <br /><br />
-        <label>Average K/D: </label>
+        <label for="kd">Average K/D: </label>
         <input type="text" id="kd" placeholder="Don't lie lol " />
         <br /><br />
-        <label>Is there anything else you would like to tell us?</label>
-        <input type="text" id="more"/>
-        <br><br>
+        <label for="message"
+          >Is there anything else you would like to tell us?</label
+        >
+        <textarea id="message" rows="8" cols="40"> </textarea>
+        <br /><br />
         <input type="checkbox" id="Terms" />
-        <label>Read and agree to our Terms of Service</label>
+        <label for="Terms">Read and agree to our Terms of Service</label>
         <br /><br />
         <input type="checkbox" id="nocheat" />
-        <label>Read and agree to the No Cheating Regulations</label>
+        <label for="nocheat"
+          >Read and agree to the No Cheating Regulations</label
+        >
         <br /><br />
         <input type="checkbox" id="Sportsmanship" />
-        <label>Read and agree to the Respect and Sportsmanship Guidelines</label>
+        <label for="Sportsmanship"
+          >Read and agree to the Respect and Sportsmanship Guidelines</label
+        >
+
+        <button></button>
       </form>
     </div>
   </body>
