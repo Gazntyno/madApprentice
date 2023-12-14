@@ -16,81 +16,84 @@
       <h3>Please enter all of the following information honestly:</h3>
       <hr />
       <br /><br />
-      <form>
+      <form action="RegistrationForm.html" method="post">
         <label for="name">Full Name: </label>
-        <input type="text" id="name" placeholder="Enter your full legal name" />
+        <input type="text" id="name" placeholder="Enter your full legal name" value="fullname" required/>
         <br /><br />
         <label for="birthday">Date of Birth: </label>
-        <input type="date" id="birthday" />
+        <input type="date" id="birthday" value="DOB" required/>
         <br /><br />
         <label>Gender: </label>
         <br />
         <label for="gender">Male</label>
-        <input type="radio" id="gender" />
+        <input type="radio" id="gender" value="male" />
         <label for="gender">Female</label>
-        <input type="radio" id="gender" />
+        <input type="radio" id="gender" value="female" />
         <label for="gender">Other</label>
-        <input type="radio" id="gender" />
+        <input type="radio" id="gender" value="other" />
         <br /><br />
         <label for="email">Email: </label>
-        <input type="email" id="email" placeholder="bigshot@email.com" />
+        <input type="email" id="email" placeholder="bigshot@email.com" value="email" required/>
         <br /><br />
         <label for="phonenumber">Phone Number: </label>
-        <input type="text" id="phonenumber" maxlength="3" />
-        <input type="number" id="phonenumber" maxlength="3" />
-        <input type="number" id="phonenumber" maxlength="4" /> <br /><br />
+        <input type="text" id="phonenumber" maxlength="3" style="width: 28px; height: 14px;" placeholder="XXX" value="number" />
+        -
+        <input type="text" id="phonenumber" maxlength="3" style="width: 28px; height: 14px;" placeholder="XXX" value="number" />
+        -
+        <input type="text" id="phonenumber" maxlength="4" style="width: 38px; height: 14px;" placeholder="XXXX" value="number"/> <br /><br />
         <label for="gamertag">Gamertag: </label>
         <input
           type="text"
           id="gamertag"
           placeholder="What the world will call you"
+          value="gamertag"
         />
         <br /><br />
         <label for="gameInput"
           >Do you play wil mouse and keyboard or controller?</label
         >
         <select id="gameInput">
-          <option>Mouse and Keyboard</option>
-          <option>Controller</option>
+          <option value="mousekey">Mouse and Keyboard</option>
+          <option value="controller">Controller</option>
         </select>
         <br /><br />
         <label for="platform">What is your main gaming platform?</label>
         <select id="platform">
-          <option>PC</option>
-          <option>Playstation</option>
-          <option>Xbox</option>
-          <option>Mobile</option>
+          <option value="pc">PC</option>
+          <option value="playstation">Playstation</option>
+          <option value="xbox">Xbox</option>
+          <option value="mobile">Mobile</option>
         </select>
         <br /><br />
         <label for="mainGame">What is your main competitive video game?</label>
         <select id="mainGame">
-          <option>Apex Legends</option>
-          <option>Call of Duty</option>
-          <option>Valorant</option>
+          <option value="apex">Apex Legends</option>
+          <option value="cod">Call of Duty</option>
+          <option value="cod">Valorant</option>
         </select>
         <br /><br />
         <label for="kd">Average K/D: </label>
-        <input type="text" id="kd" placeholder="Don't lie lol " />
+        <input type="text" id="kd" placeholder="K/D " maxlength="4" style="width: 38px; height: 14px;" value="kd"/>
         <br /><br />
         <label for="message"
           >Is there anything else you would like to tell us?</label
         >
-        <textarea id="message" rows="8" cols="40"> </textarea>
+        <textarea id="message" rows="8" cols="40" value="message"> </textarea>
         <br /><br />
-        <input type="checkbox" id="Terms" />
-        <label for="Terms">Read and agree to our Terms of Service</label>
-        <br /><br />
-        <input type="checkbox" id="nocheat" />
+        <input type="checkbox" id="nocheat" value="nocheat" required/>
         <label for="nocheat"
-          >Read and agree to the No Cheating Regulations</label
+          >By clicking this you agree to not cheat</label
         >
         <br /><br />
-        <input type="checkbox" id="Sportsmanship" />
+        <input type="checkbox" id="Sportsmanship" value="Sportsmanship" required/>
         <label for="Sportsmanship"
-          >Read and agree to the Respect and Sportsmanship Guidelines</label
+          >Read and agree to the <a href="https://esportbet.com/ethics-and-sportsmanship/">Sportsmanship Guidelines</a></label
         >
-
-        <button></button>
+        <br><br>
+        <input type="checkbox" id="Terms" value="Terms" required/>
+        <label for="Terms">Read and agree to our <a href="https://www.esports.com/en/terms-and-conditions-online-contest">Terms and Conditions</a></label>
+        <br><br>
+        <button type="submit">Submit</button>
       </form>
     </div>
   </body>
