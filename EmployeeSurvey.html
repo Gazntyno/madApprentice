@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Employee Survey Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div>
+      <h1>Employee Interests Survey Form</h1>
+      <form action="EmployeeSurvey.html" method="post">
+        <label>Name: </label>
+        <input
+          type="text"
+          placeholder="Enter Your Name"
+          id="name"
+          value="name"
+          required
+        />
+        <br /><br />
+        <label>Department: </label>
+        <input
+          type="text"
+          placeholder="Enter Your Department"
+          id="department"
+          value="department"
+          required
+        />
+        <br /><br />
+        <label>Tell us a little about yourself: </label>
+        <br />
+        <textarea id="message" rows="8" cols="30" value="message"></textarea>
+        <br /><br />
+        <label>Do you exercise at home?</label>
+        <label for="question1">Yes</label>
+        <input type="radio" id="yes" value="yes" />
+        <label for="question1">No</label>
+        <input type="radio" id="no" value="no" />
+        <br /><br />
+        <label>How do you like to read about your favorite topics?</label>
+        <br /><br />
+        <input type="checkbox" value="phoneapp" />
+        <label>Phone Apps</label>
+        <input type="checkbox" value="Online" />
+        <label>Online</label>
+        <input type="checkbox" value="books" />
+        <label>Books</label>
+        <input type="checkbox" value="magazines" />
+        <label>Magazines</label>
+        <br /><br />
+        <label>What is your favorite movie genre? </label>
+        <select>
+          <option value="action">Action</option>
+          <option value="horror">Horror</option>
+          <option value="comedy">Comedy</option>
+          <option value="romance">Romance</option>
+          <option value="scifi">Sci-Fi</option>
+        </select>
+        <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
