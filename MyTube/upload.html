@@ -10,21 +10,55 @@
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <header><h1>Upload Video</h1></header>
+    <header><h1>MyTube</h1></header>
+    <hr />
     <div>
-      <nav style="background-color: lightgrey;">
+      <nav>
         <a href="./index.html">Home</a>
         <a href="pages/collection1.html">Collection 1</a>
         <a href="pages/collection2.html">Collection 2</a>
         <a href="pages/collection3.html">Collection 3</a>
         <a href="./upload.html">New Video</a>
       </nav>
-
-      
+      <h2>Upload a new video</h2>
+      <form action="upload.html" method="post">
+        <label for="title">Video Title</label><br />
+        <input type="text" placeholder="title of your video" />
+        <br /><br />
+        <label>Description</label>
+        <br />
+        <textarea
+          rows="5"
+          cols="30"
+          placeholder="describe your video"
+        ></textarea>
+        <br /><br />
+        <label>Video File</label>
+        <br />
+        <input type="file" />
+        <br /><br />
+        <label>Choose collection</label>
+        <br />
+        <select>
+          <option>Collection 1: Video Games</option>
+          <option>Collection 2: Podcasts</option>
+          <option>Collection 3: Development</option>
+        </select>
+        <br /><br />
+        <input type="radio" value="public" name="privacy" /><label for="public"
+          >Public</label
+        >
+        <input type="radio" value="private" name="privacy" /><label
+          for="private"
+          >Private</label
+        >
+        <br /><br /><br /><br />
+        <button type="submit">Upload Video</button>
+      </form>
     </div>
-    <footer>
-        
-    </footer>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+    <footer>&copy: Copyright"</footer>
     <script src="" async defer></script>
   </body>
 </html>
