@@ -1,0 +1,16 @@
+{
+  "name": "madapprentice",
+  "version": "1.0.0",
+  "description": "Learning Web Dev, CRUD, and other fundamentals of programming using Javascript, HTML, and CSS. The goal is to become proficient in programming so that I can create interesting apps, websites, video games and much more. I also want to learn source control so I can contribute to repos and collaborate with other developers.  I will also be uploading random programs to this repo for the documentation of my programming journey. I also want to learn other languages like: - Rust - C++",
+  "main": "bouncingCircles.js",
+  "scripts": {
+    "dev": "vite", 
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.0.10"
+  }
+}
