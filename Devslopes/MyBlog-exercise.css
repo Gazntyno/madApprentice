@@ -62,4 +62,9 @@ body {
     background-color: rgb(12, 12, 12);
 }
 
-
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: antiquewhite;
+}
