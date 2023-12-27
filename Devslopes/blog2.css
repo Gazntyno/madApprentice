@@ -1,0 +1,79 @@
+section {
+    display: block;
+    width: 550px;
+    height: 350px;
+    padding: 0 50px;
+    align-content: normal;
+}
+
+h3 {
+   
+    padding: 0 25px;
+    color: antiquewhite;
+}
+
+h1 {
+    padding: 50px 75px;
+    justify-content: center;
+    color:antiquewhite;
+    
+}
+
+p {
+    font-size: 24;
+    color: antiquewhite;
+}
+
+#agi{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    width: 400px;
+    height: 400px; 
+}
+
+#atomImage {
+    position: absolute;
+    top: 1250px;
+    left: 1250px;
+    width: 400px;
+    height: 400px;
+}
+
+#eco {
+    height: 900px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.blog {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.blog h1{
+    font-size: 2em;
+}
+body {
+    background-color: rgb(12, 12, 12);
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+.head {
+    font-family: 'Play', sans-serif;
+}
