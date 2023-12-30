@@ -1,5 +1,16 @@
-div {
+#slope {
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 250px;
+    height: 750px;
+    background-color: facebookblue;
 }
+
+#dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+}
+
