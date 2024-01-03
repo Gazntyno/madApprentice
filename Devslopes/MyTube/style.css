@@ -1,0 +1,49 @@
+
+#youtube-logo {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+#youtube-logo .play {
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px 8px;
+  margin: 0 5px;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.bod {
+ justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h2 {
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+    padding: 20px 0;
+}
+
+label {
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 20px 0;
+}
