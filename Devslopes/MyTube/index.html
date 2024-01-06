@@ -10,18 +10,26 @@
     <link rel="stylesheet" href="../MyTube/style.css" />
   </head>
   <body>
-    <header><h1 id="youtube-logo">
-      <span>MyTube</span>
-      <span class="play">&#9658;</span>
-  </h1></header>
+    <header>
+      <h1 id="youtube-logo">
+        <span>MyTube</span>
+        <span class="play">&#9658;</span>
+      </h1>
+    </header>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" id="search-input" />
+      <button id="search-btn">&#128269;</button>
+    </div>
     <hr />
     <div class="bod">
       <nav class="navi">
-        <a href="./index.html">Home</a>
-        <a href="pages/collection1.html">Collection 1</a>
-        <a href="pages/collection2.html">Collection 2</a>
-        <a href="pages/collection3.html">Collection 3</a>
-        <a href="./upload.html">New Video</a>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="pages/collection1.html">Collection 1</a></li>
+          <li><a href="pages/collection2.html">Collection 2</a></li>
+          <li><a href="pages/collection3.html">Collection 3</a></li>
+          <li><a href="./upload.html">New Video</a></li>
+        </ul>
       </nav>
       <h2>Featured</h2>
       <table>
@@ -36,7 +44,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
             <br />
-            <a href="../videos/game5.html">The Finals - Before You Buy</a>
+            <a href="./videos/game5.html">The Finals - Before You Buy</a>
           </td>
           <td>
             <iframe
@@ -48,7 +56,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
             <br />
-            <a href="../videos/pod1.html"
+            <a href="./videos/pod1.html"
               >Elon Musk: War, AI, Aliens, and Video Games
             </a>
           </td>
@@ -62,7 +70,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
             <br />
-            <a href="../videos/dev1.html"
+            <a href="./videos/dev1.html"
               >100+ Web Development Things you Should Know</a
             >
           </td>

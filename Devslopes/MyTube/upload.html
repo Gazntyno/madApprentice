@@ -10,18 +10,26 @@
     <link rel="stylesheet" href="../MyTube/style.css" />
   </head>
   <body>
-    <header><h1 id="youtube-logo">
-      <span>MyTube</span>
-      <span class="play">&#9658;</span>
-  </h1></header>
+    <header>
+      <h1 id="youtube-logo">
+        <span>MyTube</span>
+        <span class="play">&#9658;</span>
+      </h1>
+    </header>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" id="search-input" />
+      <button id="search-btn">&#128269;</button>
+    </div>
     <hr />
     <div class="bod">
-      <nav>
-        <a href="./index.html">Home</a>
-        <a href="pages/collection1.html">Collection 1</a>
-        <a href="pages/collection2.html">Collection 2</a>
-        <a href="pages/collection3.html">Collection 3</a>
-        <a href="./upload.html">New Video</a>
+      <nav class="navi">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="pages/collection1.html">Collection 1</a></li>
+          <li><a href="pages/collection2.html">Collection 2</a></li>
+          <li><a href="pages/collection3.html">Collection 3</a></li>
+          <li><a href="./upload.html">New Video</a></li>
+        </ul>
       </nav>
       <h2>Upload a new video</h2>
       <form action="upload.html" method="post">
@@ -31,7 +39,7 @@
         <label for="description">Description</label>
         <br />
         <textarea
-        name="description"
+          name="description"
           rows="5"
           cols="30"
           placeholder="describe your video"
