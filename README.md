@@ -7,6 +7,7 @@ I also want to learn other languages like:
 - Rust
 - C++
 
-I'm going to be messing around with Three.js as well to make more interactive and immersive digital experiences 
+I'm going to be messing around with Three.js as well to make more interactive and immersive digital experiences. 
+I might even make a game using Three.js. 
 
   ChatGPT and Grok are my best friends :)
