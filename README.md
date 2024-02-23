@@ -8,6 +8,8 @@ I also want to learn other languages like:
 - C++
 
 I'm going to be messing around with Three.js as well to make more interactive and immersive digital experiences. 
-I might even make a game using Three.js. 
+I might even make a game using Three.js.
 
-  ChatGPT and Grok are my best friends :)
+I am also writing code for assignments and projects given to me by my web dev bootcamp.
+
+ChatGPT and Grok are my best friends :)
