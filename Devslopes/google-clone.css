@@ -11,7 +11,7 @@ body {
 }
 
 .search-bar {
-    margin-left: 845px;
+    margin-left: 735px;
     margin-top: 20px;
     
 }
@@ -19,9 +19,14 @@ body {
 #search-input {
     width: 450px;
     height: 25px;
-    margin-left: 0px;
+    margin-right: 100px;
     border-radius: 100px;
     color: grey;
+}
+
+#search-btn {
+    border-radius: 100px;
+    margin-left: -100px;
 }
 
 #btn-1 {
