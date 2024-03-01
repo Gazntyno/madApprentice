@@ -13,3 +13,4 @@ I might even make a game using Three.js.
 I am also writing code for assignments and projects given to me by my web dev bootcamp.
 
 ChatGPT and Grok are my best friends :)
+copilot is cool too 
