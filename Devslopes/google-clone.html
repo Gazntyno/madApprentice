@@ -15,17 +15,21 @@
   </head>
 
   <nav>
-    <ul>
-      <li>About</li>
-      <li>Store</li>
-      <li>Gmail</li>
-      <li>Images</li>
-      <li>
-        <button><span class="material-symbols-outlined"> apps </span></button>
-      </li>
-      <li><img src="../Images/HipHop Cyborg.png" id="profile-pic" /></li>
+    <ul class="left">
+        <li>About</li>
+        <li>Store</li>
     </ul>
-  </nav>
+    <ul class="right">
+        <li>Gmail</li>
+        <li>Images</li>
+        <li>
+            <button><span class="material-symbols-outlined"> apps </span></button>
+        </li>
+        <li><img src="../Images/HipHop Cyborg.png" id="profile-pic" /></li>
+    </ul>
+</nav>
+
+
 
   <body>
 
@@ -36,34 +40,42 @@
             />
           </div>
       
-          <div class="search-bar">
+          <div class="search-container">
+            <button id="mic-btn">
+                <span class="material-symbols-outlined">mic</span>
+            </button>
             <input type="text" placeholder="Search" id="search-input" />
             <button id="search-btn">
-              <span class="material-symbols-outlined"> search </span>
+                <span class="material-symbols-outlined">search</span>
             </button>
-          </div>
+        </div>
+        
       
-          <div class="mic">
-            <button id="mic-btn">
-              <span class="material-symbols-outlined"> mic </span>
-            </button>
-          </div>
+         
       
+        <div class="parent-container">
           <div id="btn-1">
-            <button>Google Search</button>
+              <button>Google Search</button>
           </div>
           <div id="btn-2">
-            <button>I'm Feeling Lucky</button>
+              <button>I'm Feeling Lucky</button>
           </div>
+      </div>
+      
 
     </main>
   </body>
   <footer>
-    <p>Advertising</p>
-    <p>Business</p>
-    <p>How Search Works</p>
-    <p>Privacy</p>
-    <p>Terms</p>
-    <p>Settings</p>
-  </footer>
+    <ul class="footer-left">
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>How Search Works</li>
+    </ul>
+    <ul class="footer-right">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+    </ul>
+</footer>
+
 </html>

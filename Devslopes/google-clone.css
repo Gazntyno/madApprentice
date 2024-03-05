@@ -1,63 +1,167 @@
-body {
-    background-color: white;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-#logo {
-    width: 100px;
-    height: 100px;
-    margin-left: 825px;
-    margin-top: 200px;
-  
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px); /* Adjust based on your nav/footer height */
+  padding-top: 20px;
 }
 
-.search-bar {
-    margin-left: 735px;
-    margin-top: 20px;
-    
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px; /* or 100% for full width */
+  margin: 20px auto;
 }
 
 #search-input {
-    width: 450px;
-    height: 25px;
-    margin-right: 100px;
-    border-radius: 100px;
-    color: grey;
+  flex-grow: 1;
+  height: 44px;
+  padding: 0 45px; /* Adjust this value based on your button sizes */
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 24px;
+  outline: none;
 }
 
-#search-btn {
-    border-radius: 100px;
-    position: relative;
-
-   
-    
+#search-btn,
+#mic-btn {
+  position: absolute;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 #mic-btn {
-    margin-left: 690px;
-    position: relative;
-    border-radius: 100px;
+  left: 4px; /* Adjust based on preference */
 }
 
-#btn-1 {
-   
-    margin-left: 845px;
-    margin-top: 20px;
-    border-radius: 10px;
-    color: grey;
+#search-btn {
+  right: 4px;
 }
 
+.material-symbols-outlined {
+  font-size: 24px;
+  color: #5f6368;
+}
+
+/* Adjust the search bar and button sizes for smaller screens */
+@media (max-width: 768px) {
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
+/* Container holding the buttons */
+#btn-1,
 #btn-2 {
-    margin-left: 1000px;
-    margin-top: -20px;
-    border-radius: 10px;
-    color: grey;
-    
+  display: inline-block; /* This makes the divs line up horizontally */
+  margin: 20px 5px; /* Adjusts spacing around the buttons */
+}
+
+/* Alternatively, if #btn-1 and #btn-2 are wrapped in a parent container */
+.parent-container {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  gap: 10px; /* Adds some space between the two buttons */
+}
+
+/* Styling for buttons within #btn-1 and #btn-2 for a more unified look */
+#btn-1 button,
+#btn-2 button {
+  padding: 10px 24px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btn-1 button:hover,
+#btn-2 button:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f0f0f0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Aligns children to each end */
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust as necessary */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.left {
+  justify-content: flex-start; /* Aligns "About" and "Store" to the left */
+}
+
+nav ul.right {
+  justify-content: flex-end; /* Aligns other elements to the right */
+}
+
+nav li {
+  display: inline; /* Keeps items in a line */
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 #profile-pic {
-    width: 50px;
-    height: 50px;
-    margin-left: 1000px;
-    margin-top: -60px;
-    border-radius: 100px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f2f2f2;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center; /* For vertical alignment */
+}
+
+footer ul.footer-left {
+  justify-content: flex-start; /* Aligns items to the left */
+}
+
+footer ul.footer-right {
+  justify-content: flex-end; /* Aligns items to the right */
+}
+
+footer li {
+  white-space: nowrap; /* Prevents text from wrapping */
 }
