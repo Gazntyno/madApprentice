@@ -1,0 +1,36 @@
+body {
+  background-color: #01050c;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #ceb5a4;
+}
+
+h3 {
+  color: #ffffe8;
+}
+
+.container-1 {
+  border: 1px solid #674c42;
+  background-color: #674c42;
+  color:#01050c;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+
+}
+
+#logo {
+  border-radius: 50%;
+  width: 150px;
+}
+
+#Benefits {
+    width: 400px;
+    text-align: center;
+}
