@@ -1,9 +1,15 @@
 body {
   background-color: #01050c;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 header {
   text-align: center;
+}
+
+p {
+  display: block;
+  margin-right: 10px;
 }
 
 h1 {
@@ -14,6 +20,22 @@ h3 {
   color: #ffffe8;
 }
 
+footer {
+  text-align: center;
+  background-color: #484454;
+  padding: 10px;
+}
+
+button {
+  background-color: #ceb5a4;
+  color: #01050c;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
 .container-1 {
   border: 1px solid #674c42;
   background-color: #674c42;
@@ -21,6 +43,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
+  padding: 20px;
 }
 
 .container-2 {
@@ -29,9 +52,44 @@ h3 {
   place-items: center;
 }
 
+.container-3 {
+  border: 1px solid #674c42;
+  background-color: #674c42;
+  color: #01050c;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  padding: 20px;
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+#extra {
+  text-align: center;
+  color: #ceb5a4;
+  font-size: larger;
+  width: 600px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#card {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  font-size: 20px;
+}
+
 #container-ben {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  font-size: 20px;
 }
 
 #logo {
@@ -42,10 +100,11 @@ h3 {
 #Benefits {
   width: 350px;
   text-align: center;
-  padding: 10px;
 }
 
-
+#join {
+  font-size: 34px;
+}
 
 #Chess-P {
   width: 300px;
@@ -55,4 +114,10 @@ h3 {
   background-color: #01050c;
   border: 1px solid #ceb5a4;
   color: #ceb5a4;
+}
+
+#lite-txt {
+  color: #ceb5a4;
+  text-align: center;
+  width: 250px;
 }
