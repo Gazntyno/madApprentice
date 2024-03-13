@@ -121,3 +121,35 @@ button {
   text-align: center;
   width: 250px;
 }
+
+@media (max-width: 768px) {
+  .container-2,
+  #container-ben {
+    grid-template-columns: 1fr;
+  }
+
+  .container-4 {
+    grid-template-columns: 1fr;
+  }
+
+  #extra,
+  #Chess-P,
+  #Benefits,
+  #lite-txt {
+    width: auto;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #extra,
+  #Chess-P,
+  #Benefits,
+  #lite-txt {
+    padding: 5px; /* Reduce padding for smaller devices */
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
