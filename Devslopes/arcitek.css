@@ -74,6 +74,13 @@ a {
   margin: 10px;
 }
 
+.eve {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
 .about,
 .our-team {
   display: grid;
@@ -83,7 +90,7 @@ a {
   justify-items: center;
   padding: 10px;
   width: 500px;
-  margin-left: 550px;
+  place-items: center;
 }
 
 .container-1 {
@@ -92,8 +99,8 @@ a {
   grid-template-rows: 1fr;
   padding: 10px;
   width: 1450px;
-  height: 800px;
-  margin-left: 20px;
+  height: 700px;
+
   align-items: center;
   justify-items: center;
 }
@@ -120,7 +127,7 @@ a {
   grid-template-rows: 1fr;
   height: 450px;
   width: 1450px;
-  margin-left: 20px;
+
   align-items: center;
   justify-items: center;
 }
@@ -149,6 +156,7 @@ a {
   padding: 10px;
   width: auto;
   background-color: #282828;
+  color: #777;
 }
 
 hr {
@@ -165,4 +173,92 @@ footer {
   justify-items: center;
   padding: 10px;
   background-color: #282828;
+  color: #777;
+}
+
+@media (max-width: 1200px) {
+  main {
+    width: 1200px;
+  }
+
+  .eve {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 1200px;
+  }
+
+  container-1 {
+    display: grid;
+    justify-content: center;
+  }
+
+  ul {
+    margin-left: 1200px;
+  }
+
+  .contact,
+  footer {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 375px) {
+  main {
+    width: 325px;
+    hight: 1000px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  nav {
+    width: 325px;
+  }
+
+  .card {
+    width: 325px;
+  }
+
+  #card-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    width: 250px;
+  }
+
+  .navi,
+  .logo,
+  .about,
+  .our-team,
+  .eve,
+  .container-1,
+  .container-2,
+  .contact,
+  footer {
+    width: 325px;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    font-size: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .eve {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 325px;
+  }
 }
